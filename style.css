@@ -135,7 +135,11 @@ body {
         direction: ltr;
     }
     .parallax {
-        background: url("background.jpg") repeat fixed 100%;
+        background: url("background.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         text-align: center;
     }
     .parallax-inner {
